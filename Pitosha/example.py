@@ -6,6 +6,7 @@
 # print(type(b))
 # value = 12334
 # print(type(value))
+
 # s = 'Hello world'
 # print(s)
 # print(a,b,s)
@@ -14,15 +15,18 @@
 # print(f'{a} - {b} - {s}')
 # list = ['1','2','4','hello']
 # # print(list)
+
 # print('Введите а:')
 # a = int(input())
 # print('Введите b:')
 # b = int(input())
 # print(a, ' ', b, ' ', a+b)
+
 # a=1.3
 # b=3
 # c=round(a * b, 1)
 # print(c)
+
 # func = 1
 # t = 5
 # x = 123
@@ -34,12 +38,14 @@
 # f=[1,2,3,4]
 # is_odd = f[1] % 2==0
 # print(is_odd)
+
 # a = int(input('a = '))
 # b = int(input('b = '))
 # if a > b:
 #  print(a)
 # else:
 #  print(b)
+
 # original = 23
 # inverted = 0
 # while original !=0:
@@ -49,6 +55,7 @@
 #     print('Пожалуй')
 #     print('хватит')
 # print(inverted)    
+
 # list = [1,2,3,4,5]
 # for i in list:
 #     print(i)
@@ -57,8 +64,8 @@
 #     print(i+1)
 # for i in range(1, 10, 2):
 #     print(i)
-# text =  'съешь ещё этих мягких французских булок'
 
+# text =  'съешь ещё этих мягких французских булок'
 # print(len(text))
 # print('ещё' in text)
 # print(text[:5] + text[9:14])
@@ -72,3 +79,7 @@
 #         return 
 # arg = 2
 # print(f(arg))
+
+# def p(x):
+#     if x>0:
+#         print(f'{x} > 0')
