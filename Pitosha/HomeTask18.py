@@ -12,10 +12,10 @@ from random import randint
 
 
 def ok(x, list_x):
-    find_ok = 100
+    find_ok = float("inf")
     for i in list_x:
         if abs(x-i) <= find_ok:
-            find_ok = x-i
+            find_ok = abs(x-i)
             ok = i
     return ok
 

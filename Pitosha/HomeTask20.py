@@ -29,7 +29,5 @@ string_user = input('Введите слово для игры в Скрабл: 
 string_user = string_user.upper()
 count = 0
 for i in string_user:
-    for k in scrabble.keys():
-        if i == k:
-            count += scrabble[k]
+    count += scrabble[i]
 print(count)

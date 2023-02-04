@@ -84,4 +84,12 @@
 #     if x>0:
 #         print(f'{x} > 0')
 
-
+num = input('Введите число: ')
+sum1=0
+sum2=0
+for i in num[:3]:
+    sum1+=int(i)
+for i in num[-3:]:
+    sum2+=int(i)    
+print(sum1)
+print(sum2)    
