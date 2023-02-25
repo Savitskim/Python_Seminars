@@ -84,12 +84,30 @@
 #     if x>0:
 #         print(f'{x} > 0')
 
-num = input('Введите число: ')
-sum1=0
-sum2=0
-for i in num[:3]:
-    sum1+=int(i)
-for i in num[-3:]:
-    sum2+=int(i)    
-print(sum1)
-print(sum2)    
+# num = input('Введите число: ')
+# sum1=0
+# sum2=0
+# for i in num[:3]:
+#     sum1+=int(i)
+# for i in num[-3:]:
+#     sum2+=int(i)    
+# print(sum1)
+# print(sum2)    
+# param_dict = {'фамилия': 'Фрол', 'имя': 'Стас', 'номер': '3333'}
+# def format_contact(list_contacts: list, search: str):
+#     param = input('1 - Изменить\n2 - Удалить\n0 - Назад\n')
+#     if param == '1':
+#         search['фамилия'] = input('Введите новую фамилию: ')
+#         search['имя'] = input('Введите новое имя: ')
+#         search['номер'] = input('Введите новый номер: ')
+#         return search
+#     elif param == '2':
+#         search.clear()
+#         return list_contacts
+#     elif param == '0':
+#         return    
+    
+    
+
+# format_contact(param_dict)
+# print(param_dict)
